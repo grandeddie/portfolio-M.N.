@@ -1,3 +1,3 @@
-##Working on personal portfolio webpage##
+<h2>Working on personal portfolio webpage</h2>
 
-##cCheck the progress here <a href="https://grandeddie.github.io/portfolio-REfe-e-dWeb.github.io/"></a>##
+<h2>Check the progress here <a href="https://grandeddie.github.io/portfolio-REfe-e-dWeb.github.io/"></a></h2>

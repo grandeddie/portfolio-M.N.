@@ -3,13 +3,14 @@
     --shadows-color:#212121;
     --line-btns:#ff4545;
     --font-color:#ffffff;
-
  }
+
 *{
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 }
+
  body {
    width:100%;
    margin:0;
@@ -27,6 +28,7 @@ header{
    padding: 1em;
    position: relative;
 }
+
 header:before{
 	content: '';
 	position: absolute;
@@ -45,20 +47,23 @@ header:before{
 		width: 100%;
 	}
 }
+
 .initials a{
    color: var(--font-color);
    text-decoration: none;
    font-size: 1.6em;
 }
+
 header nav ul {
    display: flex;
    flex-direction: row;
    list-style: none;
 }
+
 header nav ul li{
    margin-left: 4em;
-   
 }
+
 header nav ul li a{
    color: var(--font-color);
    text-decoration: none;

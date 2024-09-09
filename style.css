@@ -3,7 +3,6 @@
     --shadows-color:#212121;
     --line-btns:#ff4545;
     --font-color:#ffffff;
-
  }
 *{
    margin: 0;
@@ -18,7 +17,6 @@
    color: var(--font-color);
    font-family: "Oswald", sans-serif;
 }
-
 header{
    width: 100%;
    display: flex;
@@ -36,7 +34,6 @@ header:before{
 	border-bottom: .1em solid var(--line-btns);
 	animation: border_anim 2s linear forwards;
 }
-
 @keyframes border_anim {
 	0%{
 		width: 0%;
@@ -45,7 +42,7 @@ header:before{
 		width: 100%;
 	}
 }
-.initials a{
+.logo a{
    color: var(--font-color);
    text-decoration: none;
    font-size: 1.6em;
@@ -56,8 +53,7 @@ header nav ul {
    list-style: none;
 }
 header nav ul li{
-   margin-left: 4em;
-   
+   margin-left: 4em; 
 }
 header nav ul li a{
    color: var(--font-color);

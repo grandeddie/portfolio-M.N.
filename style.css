@@ -77,3 +77,37 @@ header nav ul li a{
    }
  }
 
+ footer{
+   text-align: center;
+   font-size: 1.2em;
+   padding: 2.5em 0;
+}
+footer a { 
+   color: var(--font-color);
+   text-decoration: none;
+}
+.footer__link {
+   font-weight: 400;
+}
+.footer__link:hover,
+.social-list__link:hover {
+   opacity: .7;
+}
+.footer__link:hover {
+   text-decoration: underline;
+}
+.social-list {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   padding: 2em;
+}
+.social-list__item {
+   margin: .5em;
+}
+.social-list__link { 
+   padding: .5em;
+}
+svg{
+   fill:var(--font-color);
+}

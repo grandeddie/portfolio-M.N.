@@ -3,11 +3,11 @@
    --shadows-color:#212121;
    --line-btns:#ff4545;
    --font-color:#ffffff;
-   --step-1: clamp(1.35rem, 1.2048rem + 0.7261vw, 1.7675rem);
+  /* --step-1: clamp(1.35rem, 1.2048rem + 0.7261vw, 1.7675rem);
    --step-2: clamp(1.62rem, 1.3142rem + 1.5291vw, 2.4992rem);
    --step-3: clamp(1.944rem, 1.391rem + 2.7651vw, 3.5339rem);
    --step-4: clamp(2.3328rem, 1.4061rem + 4.6334vw, 4.997rem);
-    --step-5: clamp(2.7994rem, 1.3154rem + 7.4198vw, 7.0657rem);
+    --step-5: clamp(2.7994rem, 1.3154rem + 7.4198vw, 7.0657rem);*/
 }
 
 *{
@@ -26,9 +26,8 @@ body {
   padding:0;
   background-color:var(--bg-color);
   color: var(--font-color);
-  
   font-family: 'Roboto Mono', monospace,sans-serif; 
-  line-height: 1.6;
+  line-height: 1.6em;
   scroll-snap-type: y mandatory;
   overflow-x: hidden;
 }
@@ -67,6 +66,7 @@ header nav {
    justify-content: space-between; 
    padding: 1em 2em;
    overflow: auto;
+   padding: 3em;
 }
 header nav ul {
   display: flex;
@@ -82,26 +82,21 @@ header nav ul li{
 header nav ul li a{
   color: var(--font-color);
   text-decoration: none;
-  font-size: var(--step-1);
+  font-size: 1.8em;
 }
-@media screen and (max-width: 600px) {
-   header nav ul{
-     flex-direction: column;
-     display: block;
-   }
- }
  section{
    padding-block: 4em;
  }
  #home{
    width: 85%;
    margin: 0 auto;  
+   font-size: 2em;
 }
 .text{
    line-height: 3em;   
 }
 .text h1{
-   font-size: var(--step-4);
+   font-size: 3.2em;
    margin-block: .5em;
 }
 .w-spaces{
@@ -113,18 +108,23 @@ header nav ul li a{
    gap: 3em;
 }
 .cv, .hire_me{
-   width: 12rem;
-   padding: .5em;
-   font-size: var(--step-1);
-   border-radius: 3em;
+   width: 6em;
+   padding: .4em;
+   font-size: 1.2em;
+   border-radius: 2em;
 }
 #about{
    width: 100%;
-   
+   margin-top: 6.2em;
+   font-size: var(--step-1);
 }
 .my_story{
    width: 85%;
    margin: 0 auto;
+   font-size: 1.6em;
+}
+.my_story h3{
+
 }
 .biography{
   display: flex;
@@ -156,14 +156,16 @@ header nav ul li a{
 #projects{
    width: 85%;
    margin: 0 auto;
+   font-size: 1.6em;
 }
 .project-item{
   color:var(--font-color);
-   
+  height: 250px; 
+  margin-top: 2em;
 }
  footer{
    text-align: center;
-   font-size: 1.2em;
+   font-size: 1.6em;
    padding: 2.5em 0;
 }
 footer a { 

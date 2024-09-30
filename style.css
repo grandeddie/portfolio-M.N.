@@ -123,30 +123,40 @@ header nav ul li a{
    margin: 0 auto;
    font-size: 1.6em;
 }
-.my_story h3{
-
+.my_story h2{
+   font-size: 2.5em;
+}
+.my_story p{
+   font-size: 1em;
+   line-height: 4rem;
 }
 .biography{
   display: flex;
   flex-direction: column;
   gap: 2em; 
 }
-.bg-img{
-   width: 2em;
-   border-radius: 10em;
-   margin-left: 10em;
-   position: relative;
-   bottom: 3em;
+.tech-badges{
+  
 }
+.tech-badges img{
+   margin-left: .5rem;
+   animation: track 5s linear infinite;
+
+}
+@keyframes track {
+   from {
+      transform: translateX(0);
+   }
+
+  to {
+      transform: translateX(-100%);
+   }
+ }
 .in-tech{
    display: flex;
    padding-block: 2em;
    gap: 2em;
    align-content: space-evenly; 
-}
-.my_story p{
-   font-size: 1em;
-   line-height: 4rem;
 }
 .wrapproject{
    display: grid;

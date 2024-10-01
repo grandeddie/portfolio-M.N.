@@ -21,9 +21,7 @@ html{
    font-size: 62.5%;
 }
 body {
-  width:100%;
-  margin:0;
-  padding:0;
+ 
   background-color:var(--bg-color);
   color: var(--font-color);
   font-family: 'Roboto Mono', monospace,sans-serif; 
@@ -31,7 +29,10 @@ body {
   scroll-snap-type: y mandatory;
   overflow-x: hidden;
 }
-
+main{
+   width: 85%;
+   margin: 0 auto;
+}
 header{
   width: 100%;
   position: relative;
@@ -64,9 +65,8 @@ header:before{
 header nav {
    display: flex;
    justify-content: space-between; 
-   padding: 1em 2em;
    overflow: auto;
-   padding: 3em;
+   padding-block: 3em;
 }
 header nav ul {
   display: flex;
@@ -88,8 +88,7 @@ header nav ul li a{
    padding-block: 4em;
  }
  #home{
-   width: 85%;
-   margin: 0 auto;  
+   width: 100%;
    font-size: 2em;
 }
 .text{
@@ -119,8 +118,6 @@ header nav ul li a{
    font-size: var(--step-1);
 }
 .my_story{
-   width: 85%;
-   margin: 0 auto;
    font-size: 1.6em;
 }
 .my_story h2{
@@ -166,8 +163,6 @@ header nav ul li a{
    gap: 1rem;
 }
 #projects{
-   width: 85%;
-   margin: 0 auto;
    font-size: 1.6em;
 }
 .project-item{

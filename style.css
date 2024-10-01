@@ -199,12 +199,16 @@ footer a {
    display: flex;
    justify-content: center;
    padding: 2em;
+   font-size: 1.4em;
 }
 .social-list__item {
    margin: .5em;
 }
 .social-list__link { 
    padding: .5em;
+}
+.copyr{
+   margin-left: 1.4em;
 }
 svg{
    fill:var(--font-color);

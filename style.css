@@ -105,12 +105,12 @@ header nav ul li a{
 .btns{
    margin-top: 2em;
    display: flex;
-   gap: 3em;
+   gap: 4em;
 }
 .cv, .hire_me{
    width: 6em;
-   padding: .4em;
-   font-size: 1.2em;
+   padding: .6em;
+   font-size: 1em;
    border-radius: 2em;
 }
 #about{
@@ -136,12 +136,14 @@ header nav ul li a{
   gap: 2em; 
 }
 .tech-badges{
-  
+  overflow: hidden;
+  display: flex;
+  gap: 2em;
 }
-.tech-badges img{
-   margin-left: .5rem;
-   animation: track 5s linear infinite;
-
+.badges{
+   display: flex;
+   gap: 2em;
+   animation: track 40s linear infinite ;
 }
 @keyframes track {
    from {

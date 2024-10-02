@@ -118,13 +118,25 @@ header nav ul li  a:hover {
    margin-top: 2em;
    display: flex;
    gap: 4em;
+   
 }
 .cv, .hire_me{
    width: 6em;
    padding: .6em;
    font-size: 1em;
-   border-radius: 2em;
+   border: .1em solid var(--line-btns);
+   border-radius: 1em;
+   background-color: var(--shadows-color);
+   color: var(--font-color);
 }
+.downloadCV{
+   text-decoration: none;
+   color: var(--font-color);
+   letter-spacing: .2em;
+}
+.fa-download{
+   color: var(--line-btns);
+} 
 #about{
    width: 100%;
    margin-top: 6.2em;

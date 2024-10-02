@@ -30,7 +30,7 @@ body {
   overflow-x: hidden;
 }
 main{
-   width: 85%;
+   width: 90%;
    margin: 0 auto;
 }
 header{
@@ -55,8 +55,6 @@ header:before{
      width: 100%;
   }
 }
-
-
 .logo a{
    color: var(--font-color);
    text-decoration: none;
@@ -66,7 +64,7 @@ header nav {
    display: flex;
    justify-content: space-between; 
    overflow: auto;
-   padding-block: 3em;
+   padding-block: 2em;
 }
 header nav ul {
   display: flex;
@@ -74,7 +72,6 @@ header nav ul {
   list-style: none;
   margin-top: .1em;
 }
-
 header nav ul li{
   margin-left: 4em;
 }
@@ -84,6 +81,22 @@ header nav ul li a{
   text-decoration: none;
   font-size: 1.8em;
 }
+header nav ul li  a:hover {
+   background-color: #555;
+   padding: .8rem;
+   border-radius: 1rem;
+}
+.checkbtn {
+   font-size: 30px;
+   color: white;
+   cursor: pointer;
+   display: none;
+ }
+ 
+ #check {
+   display: none;
+ }
+
  section{
    padding-block: 4em;
  }

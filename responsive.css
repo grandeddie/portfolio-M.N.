@@ -10,6 +10,10 @@
     main{
       width: 90%;
       margin: 0 auto;
+      font-size: .8em;
+    }
+    header nav{
+      overflow: hidden;
     }
    header nav ul {
       position: absolute;
@@ -19,7 +23,6 @@
       width: 100%;
       display: flex;
       flex-direction: column;
-
       transition: all 0.3s;
     }
     ul li {
@@ -34,7 +37,22 @@
     .checkbtn {
       display: block;
       order: 1;
-      margin-right: 20px;
+      margin-right: .4em;
+    }
+    .logo{
+      margin-top: 1rem;
+    }
+    section{
+      padding-block: 2em;
+    }
+    .text h1{
+      font-size: 2.8em;
+    }
+    #about{
+      font-size: 1.8em;
+    }
+    .my-story h2{
+      font-size: 1.8em;
     }
   }
   

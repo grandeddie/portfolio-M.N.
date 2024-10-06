@@ -62,7 +62,6 @@ header:before{
 header nav {
    display: flex;
    justify-content: space-between; 
-   overflow: auto;
    padding-block: 2em;
 }
 header nav ul {

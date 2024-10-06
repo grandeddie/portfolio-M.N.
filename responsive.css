@@ -15,7 +15,6 @@
    header nav ul {
       position: absolute;
       top: 8em;
-      visibility: visible;
       background-color: var(--shadows-color);
       width: 100%;
       display: flex;

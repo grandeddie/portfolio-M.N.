@@ -59,7 +59,14 @@ header:before{
    text-decoration: none;
    font-size: 2em;
 }
+header{
+   position: sticky;
+   top: 0;
+   background-color: var(--bg-color);
+   z-index: 999;
+}
 header nav {
+   position: relative;
    display: flex;
    justify-content: space-between; 
    padding-block: 2em;

@@ -9,13 +9,14 @@
   }
  header nav ul {
     position: absolute;
-    top: 8em;
+    top: 7.74em;
     background-color: var(--shadows-color);
     width: 100%;
     display: none;
     flex-direction: column;
     transition: all 0.5s;
   }
+  
   header nav ul li {
     margin: 4em 0; 
   }

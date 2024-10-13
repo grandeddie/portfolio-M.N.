@@ -174,11 +174,11 @@ header{
   overflow: hidden;
   display: flex;
   gap: 2em;
-}
-.badges{
-   display: flex;
-   gap: 2em;
-   animation: track 40s linear infinite ;
+   & .badges{
+      display: flex;
+      gap: 2em;
+      animation: track 40s linear infinite ;
+   }
 }
 @keyframes track {
    from {
@@ -196,13 +196,14 @@ header{
    gap: 2em;
    align-content: space-evenly; 
 }
-.wrapproject{
-   display: grid;
-   grid-template-columns: repeat(2,1fr);
-   gap: 1rem;
-}
+
 #projects{
    font-size: 1.6em;
+   & .wrapproject{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap: 1rem;
+   }
 }
 .project-item{
   /*color:var(--font-color);*/
@@ -214,12 +215,13 @@ header{
    text-align: center;
    font-size: 1.6em;
    padding: 2.5em 0;
+   & a{
+      /*color: var(--font-color);*/
+      color: var(--font--sec--col);
+      text-decoration: none;
+   }
 }
-footer a { 
-   /*color: var(--font-color);*/
-   color: var(--font--sec--col);
-   text-decoration: none;
-}
+
 .footer__link {
    font-weight: 400;
 }

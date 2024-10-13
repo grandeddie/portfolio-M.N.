@@ -10,7 +10,7 @@
  header nav ul {
     position: absolute;
     top: 7.74em;
-    #background-color: var(--shadows-color);
+    /*background-color: var(--shadows-color);*/
     background-color: var(--shadows-sec-col);
     width: 100%;
     display: none;
